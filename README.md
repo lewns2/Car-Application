@@ -1,6 +1,7 @@
 # 2019 ENERGY x SECURITY HACKATHON
 ## 프로젝트명 : NAEVI(Necessary Automatic EV Infra)
-- 차량 제어, 유지, 결제 App
-   1. NAEVI_final : Android Studio
-   2. php : MYSQL code
-   3. adeept : Python Code(차량 제어)
+### 목표 : App를 통한 차량 제어, 유지, 결제 시스템 구축
+
+   - NAEVI_final : Android Studio
+   - php : MYSQL code
+   - adeept : Python Code(차량 제어)
