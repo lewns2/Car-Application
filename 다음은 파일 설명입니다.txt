@@ -1,0 +1,11 @@
+<2030팀 NAEVI 팀장 김동현>
+
+1. 네이비(NAEVI)_김동현 : 제안서
+
+2. NAEVI 발표자료_final : 본선 발표 PPT
+
+3. adeept : 자동차 파이썬 코드
+
+4. NAEVI_final : 안드로이드 스튜디오 코드
+
+5. php : MYSQL 코드

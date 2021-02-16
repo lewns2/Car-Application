@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:background="@android:color/white">
+
+        <Button
+            android:background="@drawable/logo_main"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:id="@+id/point_text"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textSize="32dp"
+            android:textColor="@color/navy"
+            android:gravity="center"
+            android:text="결제" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:background="@drawable/logout_two"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ID_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="님 안녕하세요"/>
+    </LinearLayout>
+
+    <view
+        android:id="@+id/my_recycler_view1"
+        class="androidx.appcompat.app.AlertController$RecycleListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/point_navy"/>
+
+    <view
+        android:id="@+id/my_recycler_view2"
+        class="androidx.appcompat.app.AlertController$RecycleListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:id="@+id/point_list"
+            android:background="@drawable/point_total"
+            android:layout_gravity="center"
+            android:layout_margin="15dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/point_result"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/design_default_color_primary_dark" />
+
+    <view
+        android:id="@+id/my_recycler_view3"
+        class="androidx.appcompat.app.AlertController$RecycleListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:id="@+id/plus_button"
+            android:background="@drawable/point_plus"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+    <view
+        android:id="@+id/my_recycler_view4"
+        class="androidx.appcompat.app.AlertController$RecycleListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/drive_button"
+            android:background="@drawable/drive_black"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <Button
+            android:id="@+id/car_button"
+            android:background="@drawable/battery_black"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <Button
+            android:id="@+id/point_button"
+            android:background="@drawable/cash_navy"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <Button
+            android:id="@+id/security_button"
+            android:background="@drawable/cctv_black"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/point_reset"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="0" />
+</LinearLayout>
